@@ -164,8 +164,6 @@ const Contact = () => {
                   <MapPin className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-medium text-foreground">Rohi Moat Sadae Commodities Limited</p>
-                    <p className="text-sm text-muted-foreground">Registration No: 120251028008</p>
-                    <p className="text-sm text-muted-foreground">Tax ID: 2003804856</p>
                   </div>
                 </div>
               </Card>
@@ -182,8 +180,6 @@ const Contact = () => {
                   <MapPin className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-medium text-foreground">Rohi Moat Sadae Commodities (Pty) Ltd</p>
-                    <p className="text-sm text-muted-foreground">Registration No: 2025/605611/07</p>
-                    <p className="text-sm text-muted-foreground">Tax ID: 9948089199</p>
                   </div>
                 </div>
               </Card>
