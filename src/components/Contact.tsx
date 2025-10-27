@@ -193,8 +193,8 @@ const Contact = () => {
                   <Mail className="w-5 h-5" />
                   <span>info@rmszm.com</span>
                   
-                </a>   <br>
-                              <a
+                </a>  
+                 <a
                   href="call:+260765161313"
                   className="inline-flex items-center space-x-2 text-primary hover:text-accent transition-colors font-medium"
                 >
