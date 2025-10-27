@@ -164,25 +164,13 @@ const Contact = () => {
                   <MapPin className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                   <div>
                     <p className="font-medium text-foreground">Rohi Moat Sadae Commodities Limited</p>
+                                        <p className="font-medium text-foreground">HN-5 Mbala Close Off Alex Chola Road Nyumba Yanga, Lusaka Zambia</p>
+
                   </div>
                 </div>
               </Card>
 
-              {/* South Africa Office */}
-              <Card className="p-6 space-y-4 bg-card shadow-[var(--shadow-elegant)]">
-                <div className="flex items-center space-x-3">
-                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center">
-                    <Building2 className="w-5 h-5 text-primary" />
-                  </div>
-                  <h3 className="text-xl font-semibold text-foreground">South Africa Office</h3>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <MapPin className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
-                  <div>
-                    <p className="font-medium text-foreground">Rohi Moat Sadae Commodities (Pty) Ltd</p>
-                  </div>
-                </div>
-              </Card>
+
 
               <div className="text-center pt-4">
                 <p className="text-muted-foreground mb-3">For inquiries and partnerships</p>
