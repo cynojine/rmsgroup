@@ -1,4 +1,5 @@
 import { Pickaxe, Factory, Wheat, Building, Zap } from "lucide-react";
+import mapImage from "@/assets/africa-map.jpg";
 
 const Markets = () => {
   const markets = [
@@ -38,6 +39,15 @@ const Markets = () => {
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Serving clients across Central and Southern Africa with a focus on key industries
             </p>
+          </div>
+
+          {/* Map Image */}
+          <div className="rounded-2xl overflow-hidden shadow-[var(--shadow-elegant)] mb-12">
+            <img 
+              src={mapImage} 
+              alt="RMS Group Operations Map - Central and Southern Africa" 
+              className="w-full max-w-2xl mx-auto"
+            />
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6">

@@ -1,5 +1,8 @@
 import { Package, DollarSign, Cog, Truck, Globe } from "lucide-react";
 import { Card } from "./ui/card";
+import servicesBg from "@/assets/services-bg.jpg";
+import truckImage from "@/assets/truck-real.jpg";
+import vehicleImage from "@/assets/vehicle.jpg";
 
 const Services = () => {
   const services = [
@@ -61,6 +64,24 @@ const Services = () => {
                 </div>
               </Card>
             ))}
+          </div>
+
+          {/* Fleet Images */}
+          <div className="grid md:grid-cols-2 gap-6 mt-12">
+            <div className="rounded-2xl overflow-hidden shadow-[var(--shadow-elegant)]">
+              <img 
+                src={truckImage} 
+                alt="RMS Group Fleet - Scania Transport Truck" 
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-[var(--shadow-elegant)]">
+              <img 
+                src={vehicleImage} 
+                alt="RMS Group Fleet Vehicle" 
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
         </div>
       </div>

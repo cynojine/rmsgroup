@@ -1,4 +1,5 @@
 import { Search, HandshakeIcon, Truck, CheckCircle } from "lucide-react";
+import excavatorImage from "@/assets/excavator-night.jpg";
 
 const Process = () => {
   const steps = [
@@ -61,6 +62,15 @@ const Process = () => {
                 </div>
               ))}
             </div>
+          </div>
+
+          {/* Operations Image */}
+          <div className="rounded-2xl overflow-hidden shadow-[var(--shadow-elegant)] mt-12">
+            <img 
+              src={excavatorImage} 
+              alt="RMS Group Operations - Mining and Commodities Processing" 
+              className="w-full h-96 object-cover"
+            />
           </div>
         </div>
       </div>

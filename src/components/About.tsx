@@ -1,5 +1,6 @@
 import { Target, Eye, Award } from "lucide-react";
 import { Card } from "./ui/card";
+import teamPhoto from "@/assets/team-photo.jpg";
 
 const About = () => {
   const values = [
@@ -33,15 +34,24 @@ const About = () => {
             </p>
           </div>
 
-          {/* Mission */}
-          <div className="bg-card rounded-2xl p-8 md:p-12 shadow-[var(--shadow-elegant)]">
-            <h3 className="text-3xl font-bold text-foreground mb-6">Our Mission</h3>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              At Rohi Moat Sadae Commodities, our mission is to facilitate the efficient trade of physical
-              commodities by offering exceptional sourcing, financing, and logistics services. We are committed
-              to building long-lasting relationships with our partners and clients, contributing to the economic
-              development of the regions we operate in.
-            </p>
+          {/* Mission with Team Photo */}
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="bg-card rounded-2xl p-8 shadow-[var(--shadow-elegant)] h-full flex flex-col justify-center">
+              <h3 className="text-3xl font-bold text-foreground mb-6">Our Mission</h3>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                At Rohi Moat Sadae Commodities, our mission is to facilitate the efficient trade of physical
+                commodities by offering exceptional sourcing, financing, and logistics services. We are committed
+                to building long-lasting relationships with our partners and clients, contributing to the economic
+                development of the regions we operate in.
+              </p>
+            </div>
+            <div className="rounded-2xl overflow-hidden shadow-[var(--shadow-elegant)]">
+              <img 
+                src={teamPhoto} 
+                alt="RMS Group Team" 
+                className="w-full h-full object-cover"
+              />
+            </div>
           </div>
 
           {/* Core Values */}
