@@ -198,7 +198,7 @@ const Contact = () => {
                   href="call:+260765161313"
                   className="inline-flex items-center space-x-2 text-primary hover:text-accent transition-colors font-medium"
                 >
-                  <Phone className="w-5 h-5" />
+                  <Mail className="w-5 h-5" />
                   <span>+260765161313</span>
                   
                 </a>
