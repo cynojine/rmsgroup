@@ -7,6 +7,8 @@ import Services from "@/components/Services";
 import Process from "@/components/Process";
 import Markets from "@/components/Markets";
 import FeaturedCommodities from "@/components/FeaturedCommodities";
+import Team from "@/components/Team";
+import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -22,6 +24,8 @@ const Index = () => {
       <Process />
       <Markets />
       <FeaturedCommodities />
+      <Team />
+      <Testimonials />
       <Contact />
       <Footer />
     </div>

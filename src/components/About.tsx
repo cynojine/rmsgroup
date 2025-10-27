@@ -38,14 +38,28 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="bg-card rounded-2xl p-8 shadow-[var(--shadow-elegant)] h-full flex flex-col justify-center">
               <h3 className="text-3xl font-bold text-foreground mb-6">Our Mission</h3>
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 At Rohi Moat Sadae Commodities, our mission is to facilitate the efficient trade of physical
                 commodities by offering exceptional sourcing, financing, and logistics services. We are committed
                 to building long-lasting relationships with our partners and clients, contributing to the economic
                 development of the regions we operate in.
               </p>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span>Delivering excellence in commodity trading across Central and Southern Africa</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span>Providing reliable sourcing and logistics solutions</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">•</span>
+                  <span>Building sustainable partnerships that drive regional growth</span>
+                </li>
+              </ul>
             </div>
-            <div className="rounded-2xl overflow-hidden shadow-[var(--shadow-elegant)]">
+            <div className="rounded-2xl overflow-hidden shadow-[var(--shadow-elegant)] h-[400px]">
               <img 
                 src={teamPhoto} 
                 alt="RMS Group Team" 
