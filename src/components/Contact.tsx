@@ -187,11 +187,13 @@ const Contact = () => {
               <div className="text-center pt-4">
                 <p className="text-muted-foreground mb-3">For inquiries and partnerships</p>
                 <a
-                  href="mailto:info@rmsgroup.com"
+                  href="mailto:info@rmszm.com"
                   className="inline-flex items-center space-x-2 text-primary hover:text-accent transition-colors font-medium"
                 >
                   <Mail className="w-5 h-5" />
-                  <span>info@rmsgroup.com</span>
+                  <span>info@rmszm.com</span>
+                  <Phone className="w-5 h-5" />
+                  <span>+260765161313</span>
                 </a>
               </div>
             </div>
